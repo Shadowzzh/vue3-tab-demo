@@ -1,17 +1,17 @@
 <script lang="ts" setup>
 
 /**
- * NestedLevel3-3 多级菜单 三级菜单 3-3 （目录层级）
+ * NestedLevel3-3 多级菜单 三级菜单 3-3（目录层级）
  */
 defineOptions({
-  name: 'NestedLevel33'
+  name: 'NestedLevel331'
 })
 
 const route = useRoute()
 
 const router = useRouter()
 
-const pageTitle = ref('NestedLevel3-3 多级菜单 三级菜单 3-3 （目录层级）')
+const pageTitle = ref('NestedLevel3-3 多级菜单 三级菜单 3-3（目录层级）')
 
 const inputValue = ref(pageTitle.value)
 

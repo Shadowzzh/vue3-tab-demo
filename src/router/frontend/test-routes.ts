@@ -24,11 +24,11 @@ export const testRoutesNested = {
     },
     {
       path: 'level-1-2',
-      name: 'NestedLevel12',
+      name: 'dfewfw',
       children: [
         {
           path: '',
-          name: 'NestedLevel12',
+          name: 'wefewfewf',
           meta: {
             title: '多级菜单 1-2',
             cacheSpaceKey: CacheSpaceKeys.nestedLevel
@@ -46,11 +46,11 @@ export const testRoutesNested = {
         },
         {
           path: 'level-2-2',
-          name: 'NestedLevel22',
+          name: 'wefwe',
           children: [
             {
               path: '',
-              name: 'NestedLevel22',
+              name: 'hhhh',
               meta: {
                 title: '多级菜单 2-2',
                 cacheSpaceKey: CacheSpaceKeys.nestedLevel
@@ -77,11 +77,11 @@ export const testRoutesNested = {
             },
             {
               path: 'level-3-3',
-              name: 'NestedLevel33',
+              name: 'NestedLevel334',
               children: [
                 {
                   path: '',
-                  name: 'NestedLevel33',
+                  name: 'NestedLevel332',
                   meta: {
                     title: '多级菜单 3-3',
                     cacheSpaceKey: CacheSpaceKeys.nestedLevel
@@ -147,7 +147,7 @@ export const testRoutesExample = {
       path: 'basic',
       name: 'ExampleComponentBasic',
       meta: {
-        title: '组件示例-基础组件',
+        title: '组件示例 - 基础组件',
         cacheSpaceKey: CacheSpaceKeys.exampleComponent
       },
       component: () => import('@/modules/ExampleComponent/pages/basic.vue')
@@ -156,7 +156,7 @@ export const testRoutesExample = {
       path: 'table',
       name: 'ExampleComponentTable',
       meta: {
-        title: '组件示例-表格',
+        title: '组件示例 - 表格',
         cacheSpaceKey: CacheSpaceKeys.exampleComponent
       },
       component: () => import('@/modules/ExampleComponent/pages/table.vue')
@@ -165,7 +165,7 @@ export const testRoutesExample = {
       path: 'form',
       name: 'ExampleComponentForm',
       meta: {
-        title: '组件示例-表单',
+        title: '组件示例 - 表单',
         cacheSpaceKey: CacheSpaceKeys.exampleComponent
       },
       component: () => import('@/modules/ExampleComponent/pages/form.vue')

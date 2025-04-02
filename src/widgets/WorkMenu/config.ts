@@ -151,7 +151,7 @@ export const _menuOptions: MenuOption[] = [
       },
       {
         label: '1-2',
-        key: 'NestedLevel12',
+        key: 'klfwelkfwlek',
         icon: renderIcon(IconMenuOutlined),
         children: [
           {
@@ -161,7 +161,7 @@ export const _menuOptions: MenuOption[] = [
           },
           {
             label: '2-2',
-            key: 'NestedLevel22',
+            key: 'wefwefwefewf',
             icon: renderIcon(IconMenu),
             children: [
               {
@@ -176,7 +176,7 @@ export const _menuOptions: MenuOption[] = [
               },
               {
                 label: '3-3',
-                key: 'NestedLevel33',
+                key: 'NestedLevel335',
                 icon: renderIcon(IconMenu),
                 children: [
                   {
